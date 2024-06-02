@@ -1,0 +1,178 @@
+/*generico*/
+*{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(3, 0, 19);
+    margin: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    width: 95%;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius:5%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+nav ul li{
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    background-color: white;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+nav li:hover{
+    border-bottom: 3px solid red;
+}
+
+header h1{
+    font-size: 400%;
+    margin: 5%;
+    text-align: center;
+    background-color: black;
+}
+
+/*armas*/
+
+main{
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+    width: 95%;
+}
+
+main h1{
+    background-color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+
+main section {
+    background-color: rgb(3, 0, 19);
+    padding: 30px 0px 10px 0px;
+}
+
+section div img{
+    background-color: black;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+#e1{
+    width: 70%;
+}
+#e2{
+    width: 50%;
+}
+#e3{
+    width: 25%;
+}
+#e4{
+    width: 100%;
+}
+#e5{
+    width: 100%;
+}
+#e6{
+    width: 90%;
+}
+#e7{
+    width: 70%;
+}
+
+.nome{
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.dano{
+    color: red;
+    background-color: black;
+}
+.defesa{
+    color: blue;
+    background-color: black;
+}
+.preco{
+    color: rgb(2, 203, 2);
+    background-color: black;
+}
+
+.card{
+    width: 18rem;
+    text-align: center;
+    background-color: black;
+    margin: auto;
+    border: 5px solid white;
+}
+
+.container-principal-armas{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.card-body{
+background-color: black;
+}
+
+/*footer*/
+
+footer{
+    border: 5px solid rgb(9, 9, 51);
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 94.2%;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+footer h2 b{
+    background-color: black;
+    color: gray;
+}
+
+footer ul{
+    background-color: black;
+    list-style-type:  none;
+}
+
+footer ul li{
+    background-color: black;
+    color: gray;
+}

@@ -1,0 +1,141 @@
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    width: 95%;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+*{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(3, 0, 19);
+    margin: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius:5%;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+nav ul li{
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    background-color: white;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+nav li:hover{
+    border-bottom: 3px solid red;
+}
+
+header h1{
+    font-size: 400%;
+    margin: 5%;
+    text-align: center;
+    background-color: black;
+}
+
+
+main{
+    box-shadow: 0px 0px 10px black;
+    background-color: black;
+    margin: auto;
+    width: 95%;
+    height: 55vh;
+}
+
+main h1{
+    background-color: white;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 10%;
+}
+
+main section {
+    background-color: rgb(3, 0, 19);
+    padding: 30px 0px 10px 0px;
+}
+
+section div img{
+    background-color: black;
+}
+/*index*/
+
+.container-principal-index{
+    margin: auto 15% auto 15%;
+}
+
+.apresentacao{
+    background-color: black;
+    align-items: center;
+}
+
+.apresentacao-descricao{
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao-download{
+    background-color: orange;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 2rem;
+    border-radius: 14px;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+
+/*footer*/
+
+footer{
+    border: 5px solid rgb(9, 9, 51);
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 93.5%;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+footer h2 b{
+    background-color: black;
+    color: gray;
+}
+
+footer ul{
+    background-color: black;
+    list-style-type:  none;
+}
+
+footer ul li{
+    background-color: black;
+    color: gray;
+}
